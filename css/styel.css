@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+    font-family: "Inter";
+}
+@font-face {
+    font-family: "Inter";
+    src: url('../img/font/Inter.ttf');
+}
+
+/* start utils */
+.container {
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+}
+.band {
+    background-color: #282828;
+    height: 40px;
+    color: #ABABAB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bandDown {
+    background-color: #282828;
+    height: 40px;
+    color: #ABABAB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+/* end utils */
+
+/* start header */
+.containerHeader {
+    height: 140px;
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.containerHeader a {
+    display: flex;
+    color: #282828;
+    text-decoration: none;
+    background-color: #FFF;
+    font-weight: 500;
+    font-size: 40px;
+    margin-right: 70px;
+    align-items: center;
+}
+.containerHeader img {
+    margin-right: 50px;
+    background-color: white;
+}
+/* end header */
+
+/* start body */
+.containerBody {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.call {
+    margin-top: 80px;
+    padding: 10px 10px 10px 10px;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+.titleCenter {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.titleCenter h1 {
+    font-size: 40px;
+    background-color: white;
+}
+.titleLeft {
+    background-color: white;
+}
+.titleLeft h1 {
+    font-size: 40px;
+    margin-left: 75px;
+    background-color: white;
+}
+.info {
+    margin-top: 20px;
+    margin-left: 75px;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: white;
+}
+.array {
+    margin-top: 20px;
+    margin-left: 85px;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: white;
+}
+.sliderC {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.slider {
+    width: 448px;
+    height: 74px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.slider_line {
+    display: flex;
+    transition: all 1s;
+    background-color: white;
+}
+.slider_line img {
+    margin-right: 60px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: white;
+}
+.img {
+    margin-top: 70px;
+    margin-left: 75px;
+    background-color: white;
+    display: flex;
+}
+.img img {
+    margin-right: 74px;
+    background-color: white;
+}
+.product {
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 75px;
+    max-width: 1122px;
+    display: flex;
+    justify-content: space-between;
+}
+.productCall {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.productCall img {
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    width: 281px;
+    height: 211px;
+}
+.productCall h1 {
+    background-color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.productButton {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.productButton a {
+    background-color: white;
+}
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+    border-radius: 24px;
+    background-color: #4340D3;
+}
+.button h1 {
+    color: #FFF;
+    font-size: 20px;
+    background-color: #4340D3;
+}
+.contacts {
+    display: flex;
+    background-color: white;
+}
+.contactsInfo {
+    margin-top: 62px;
+    margin-left: 75px;
+    background-color: white;
+}
+.contactsInfo span {
+    margin-bottom: 25px;
+    background-color: white;
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+}
+.contactsInfo mark {
+    background-color: white;
+    font-weight: 700;
+}
+.contacts img {
+    margin-left: 112px;
+}
+/* end body */
+
+/* start footer */
+.containerFooter {
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.containerFooter img {
+    background-color: white;
+}
+.footerInfo {
+    margin-top: 10px;
+    margin-left: 45px;
+    background-color: white;
+}
+.footerInfo a {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 20px;
+    color: #282828;
+    text-decoration: none;
+    background-color: white;
+}
+.containerFooter span {
+    margin-bottom: 10px;
+    background-color: white;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+}
+.containerFooter mark {
+    background-color: white;
+    font-weight: 700;
+}
+/* end footer */
