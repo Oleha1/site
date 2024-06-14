@@ -40,21 +40,27 @@
     background-color: white;
     display: flex;
     align-items: center; 
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.containerHeader a {
+    background-color: white;
 }
 
-.containerHeader a {
+.containerLink {
     display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    width: 1000px;
+}
+.containerLink a {
     color: #282828;
     text-decoration: none;
-    background-color: #FFF;
+    background-color: white;
     font-weight: 500;
-    font-size: 40px;
-    margin-right: 70px;
-    align-items: center;
+    font-size: 36px;
 }
 .containerHeader img {
-    margin-right: 50px;
     background-color: white;
 }
 /* end header */
@@ -63,6 +69,10 @@
 .containerBody {
     margin: 0 auto;
     max-width: 1280px;
+}
+.test {
+    display: flex;
+    justify-content: center;
 }
 .call {
     margin-top: 80px;
@@ -73,10 +83,124 @@
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: white;
 }
+.login {
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.login p {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.login input {
+    background-color: rgba(105, 105, 105, 0.25);
+    border-radius: 12px;
+    border: none;
+    padding: 12px 20px;
+}
+.login input[type=submit] {
+    border: none;
+}
+.login input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.login form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.add {
+    background-color: white;
+    margin-top: 50px;
+}
+.add p {
+    font-weight: 600;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.add input {
+    background-color: rgba(105, 105, 105, 0.25);
+    border-radius: 12px;
+    border: none;
+    padding: 12px 20px;
+}
+.add input[type=text] {
+    border: none;
+}
+.add input[type=submit] {
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+}
+.add input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.add form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textarea {
+    background-color: rgba(105, 105, 105, 0.25);
+    border-radius: 12px;
+    border: none;
+    padding: 12px 20px;
+    height: 200px;
+}
+
+.delete {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.delete input {
+    background-color: rgba(255, 0, 0, 0.75);
+    border-radius: 12px;
+    border: none;
+    padding: 12px 20px;
+}
+.delete input[type=submit] {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+.delete input[type=submit]:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.error {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 12px;
+}
+.errorContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: white;
+}
 .titleCenter {
     background-color: white;
     display: flex;
     justify-content: center;
+    word-break: break-word;
 }
 .titleCenter h1 {
     font-size: 40px;
@@ -84,6 +208,7 @@
 }
 .titleLeft {
     background-color: white;
+    word-break: break-word;
 }
 .titleLeft h1 {
     font-size: 40px;
@@ -96,6 +221,7 @@
     font-weight: 500;
     font-size: 24px;
     background-color: white;
+    word-break: break-word;
 }
 .array {
     margin-top: 20px;
@@ -103,6 +229,7 @@
     font-weight: 500;
     font-size: 24px;
     background-color: white;
+    word-break: break-word;
 }
 .sliderC {
     margin-top: 70px;
@@ -145,12 +272,13 @@
 .product {
     background-color: white;
     margin-top: 40px;
-    margin-left: 75px;
-    max-width: 1122px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .productCall {
+    margin-bottom: 25px;
     background-color: white;
     padding: 10px 10px 10px 10px;
     border-radius: 24px;
@@ -163,10 +291,12 @@
     height: 211px;
 }
 .productCall h1 {
+    width: 331px;
     background-color: white;
     display: flex;
     font-size: 20px;
     justify-content: center;
+    word-wrap: break-word;
 }
 .productButton {
     background-color: white;
@@ -182,7 +312,10 @@
     display: inline-block;
     padding: 15px 30px 15px 30px;
     border-radius: 24px;
+    font-size: 20px;
+    color: white;
     background-color: #4340D3;
+    font-weight: 700;
 }
 .button h1 {
     color: #FFF;
@@ -190,13 +323,15 @@
     background-color: #4340D3;
 }
 .contacts {
+    margin-top: 50px;
     display: flex;
     background-color: white;
+    justify-content: space-around;
 }
 .contactsInfo {
-    margin-top: 62px;
-    margin-left: 75px;
     background-color: white;
+    display: table;
+    margin-block: auto;
 }
 .contactsInfo span {
     margin-bottom: 25px;
@@ -210,7 +345,8 @@
     font-weight: 700;
 }
 .contacts img {
-    margin-left: 112px;
+    width: 275px;
+    height: 275px;
 }
 /* end body */
 
@@ -223,10 +359,18 @@
     justify-content: center;
     background-color: white;
 }
+.containerWarp {
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .containerFooter img {
     background-color: white;
 }
 .footerInfo {
+    flex-wrap: wrap;
     margin-top: 10px;
     margin-left: 45px;
     background-color: white;
